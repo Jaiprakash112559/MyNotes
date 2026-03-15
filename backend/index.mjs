@@ -15,7 +15,8 @@ const corsOptions = {
       'http://localhost:4173',
       'http://127.0.0.1:4173',
       'http://localhost:3000',
-      'http://127.0.0.1:3000'
+      'http://127.0.0.1:3000',
+      'mynotes112559.netlify.app',
     ];
     
     // Allow requests with no origin (like mobile apps or curl requests)
