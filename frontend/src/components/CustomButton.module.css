@@ -1,0 +1,27 @@
+.defaultStyle {
+  padding: 14px 24px;
+  background: var(--accent-gradient);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-md);
+  font-family: var(--font-family);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.defaultStyle:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+.defaultStyle:active {
+  transform: translateY(0);
+}
